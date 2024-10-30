@@ -17,10 +17,10 @@
     <h2>Formulario</h2>
 
     <form action="insertar.php" method="POST">
-        <label for="nombre">Nombre de persona</label>
+        <label for="nombre">Nombre: </label>
         <input type="text" id="nombre" name="nombre" required>
         <br>
-        <label for="edad">EDADA DE PERSONA</label>
+        <label for="edad">EDAD:</label>
         <input type="number" id="edad" name="edad" min="1" required>
         <br>
         <input type="submit" value="Enviar">
